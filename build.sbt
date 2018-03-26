@@ -2,8 +2,8 @@ name := "enumeratum-macro"
 
 inThisBuild(Seq(
   version := "0.0.1",
-  organization := "com.olegpy",
-  scalaVersion := "2.12.3"
+  organization := "com.github.oleg-py",
+  scalaVersion := "2.12.4"
 ))
 
 libraryDependencies ++= Seq(
