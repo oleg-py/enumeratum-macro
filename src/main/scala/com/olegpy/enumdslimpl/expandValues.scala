@@ -29,7 +29,7 @@ object expandValues {
         }
     }
 
-    val findValues = q"def values = findValues"
+    val findValues = q"val values = findValues"
 
     companion match {
       case q"..$mods object $name { ..$stats }" =>
